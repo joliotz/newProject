@@ -50,7 +50,6 @@ function editRow(ID){
 //https://mdbootstrap.com/docs/standard/components/modal/
 function showId(ID){
     console.log(ID)
-    
 }
 
 function deleteRow(data){

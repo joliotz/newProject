@@ -2,9 +2,8 @@ const { clear } = require('console');
 const express = require('express');
 const path = require('path');
 const app = express();
-
+const connection = require('./public/scripting/dbconnection.js');
 app.use(express.static('./public'));
-
 
 
 app.get('/', function(req, res) {
